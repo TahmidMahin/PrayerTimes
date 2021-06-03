@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/prayertimes_navigation"
+    app:startDestination="@id/home2">
+ <!--All the designs of menus-->
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.prayertimes.Home"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/log"
+        android:name="com.example.prayertimes.Log"
+        android:label="Log"
+        tools:layout="@layout/fragment_log" />
+    <fragment
+        android:id="@+id/duas"
+        android:name="com.example.prayertimes.Duas"
+        android:label="Duas"
+        tools:layout="@layout/fragment_duas" />
+</navigation>

@@ -1,1 +1,3 @@
 # PrayerTimes
+
+Prayer Alerting App.
